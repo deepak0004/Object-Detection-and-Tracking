@@ -1,0 +1,29 @@
+<annotation>
+  <folder>India's Holy and Pampered Cows - Image Sequence</folder>
+  <filename>IMG_0078</filename>
+  <path>/home/sagar/Desktop/Cow/India's Holy and Pampered Cows - Image Sequence/IMG_0078.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>640</width>
+    <height>360</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>cow</name>
+    <pose>standing</pose>
+    <view>back</view>
+    <color>brown</color>
+    <number>1</number>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>247</xmin>
+      <ymin>67</ymin>
+      <xmax>514</xmax>
+      <ymax>360</ymax>
+    </bndbox>
+  </object>
+</annotation>

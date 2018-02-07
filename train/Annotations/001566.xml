@@ -1,0 +1,44 @@
+<annotation>
+  <folder>Sacred Cows Crossing M.I. Road, Jaipur, India - Image Sequence</folder>
+  <filename>IMG_0080</filename>
+  <path>C:\Users\Richa\Desktop\cow\dataset\Sacred Cows Crossing M.I. Road, Jaipur, India - Image Sequence\IMG_0080.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>640</width>
+    <height>360</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>cow</name>
+    <pose>standing</pose>
+    <view>side</view>
+    <color>black</color>
+    <number>2</number>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1</xmin>
+      <ymin>175</ymin>
+      <xmax>314</xmax>
+      <ymax>284</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>cow</name>
+    <pose>standing</pose>
+    <view>side</view>
+    <color>brown</color>
+    <number>2</number>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>382</xmin>
+      <ymin>176</ymin>
+      <xmax>593</xmax>
+      <ymax>296</ymax>
+    </bndbox>
+  </object>
+</annotation>

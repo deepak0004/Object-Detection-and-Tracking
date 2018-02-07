@@ -1,0 +1,29 @@
+<annotation>
+  <folder>cow crossing street in india - Image Sequence</folder>
+  <filename>IMG_0020</filename>
+  <path>/home/sagar/Desktop/Cow/cow crossing street in india - Image Sequence/IMG_0020.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>640</width>
+    <height>360</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>cow</name>
+    <pose>standing</pose>
+    <view>side</view>
+    <color>black</color>
+    <number>1</number>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>279</xmin>
+      <ymin>89</ymin>
+      <xmax>435</xmax>
+      <ymax>200</ymax>
+    </bndbox>
+  </object>
+</annotation>

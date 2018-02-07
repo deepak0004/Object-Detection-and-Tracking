@@ -1,0 +1,44 @@
+<annotation>
+  <folder>Cow is god in india2. (Varanasi india) - Image Sequence</folder>
+  <filename>IMG_0118</filename>
+  <path>/home/sagar/Desktop/Cow/Cow is god in india2. (Varanasi india) - Image Sequence/IMG_0118.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>1280</width>
+    <height>720</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>cow</name>
+    <pose>standing</pose>
+    <view>side</view>
+    <color>white</color>
+    <number>2</number>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>241</xmin>
+      <ymin>211</ymin>
+      <xmax>452</xmax>
+      <ymax>568</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>cow</name>
+    <pose>standing</pose>
+    <view>front</view>
+    <color>brown</color>
+    <number>2</number>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>458</xmin>
+      <ymin>180</ymin>
+      <xmax>705</xmax>
+      <ymax>602</ymax>
+    </bndbox>
+  </object>
+</annotation>
