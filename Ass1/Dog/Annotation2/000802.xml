@@ -1,0 +1,44 @@
+<annotation>
+  <folder>Happy cows - Flute call and jackfruit - Image Sequence</folder>
+  <filename>IMG_0048</filename>
+  <path>/home/sagar/Desktop/Cow/Happy cows - Flute call and jackfruit - Image Sequence/IMG_0048.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>1280</width>
+    <height>720</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>cow</name>
+    <pose>standing</pose>
+    <view>front</view>
+    <color>brown</color>
+    <number>2</number>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1</xmin>
+      <ymin>359</ymin>
+      <xmax>57</xmax>
+      <ymax>526</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>cow</name>
+    <pose>standing</pose>
+    <view>side</view>
+    <color>brown</color>
+    <number>2</number>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>147</xmin>
+      <ymin>318</ymin>
+      <xmax>467</xmax>
+      <ymax>573</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,44 @@
+<annotation>
+  <folder>Krowy - Image Sequence</folder>
+  <filename>IMG_0232</filename>
+  <path>C:\Users\Richa\Desktop\cow\dataset\Krowy - Image Sequence\IMG_0232.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>854</width>
+    <height>480</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>cow</name>
+    <pose>standing</pose>
+    <view>side</view>
+    <color>black,white</color>
+    <number>2</number>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>235</xmin>
+      <ymin>23</ymin>
+      <xmax>464</xmax>
+      <ymax>381</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>cow</name>
+    <pose>standing</pose>
+    <view>side</view>
+    <color>brown</color>
+    <number>2</number>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>402</xmin>
+      <ymin>92</ymin>
+      <xmax>842</xmax>
+      <ymax>469</ymax>
+    </bndbox>
+  </object>
+</annotation>

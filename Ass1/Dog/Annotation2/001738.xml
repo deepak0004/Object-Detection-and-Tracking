@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>DogDataNew</folder>
+	<filename>38.jpg</filename>
+	<path>/home/mukund/Desktop/BTP/DogDataNew/38.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>854</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dog</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>249</xmin>
+			<ymin>247</ymin>
+			<xmax>439</xmax>
+			<ymax>382</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,29 @@
+<annotation>
+  <folder>Cows Dominance on Indian Streets by Rooms and Menus - Image Sequence</folder>
+  <filename>IMG_0037</filename>
+  <path>/home/sagar/Desktop/Cow/Cows Dominance on Indian Streets by Rooms and Menus - Image Sequence/IMG_0037.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>1280</width>
+    <height>720</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>cow</name>
+    <pose>standing</pose>
+    <view>front</view>
+    <color>white</color>
+    <number>1</number>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>774</xmin>
+      <ymin>155</ymin>
+      <xmax>1191</xmax>
+      <ymax>711</ymax>
+    </bndbox>
+  </object>
+</annotation>

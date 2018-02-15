@@ -1,0 +1,44 @@
+<annotation>
+  <folder>Sacred Cows - India - Image Sequence</folder>
+  <filename>IMG_0037</filename>
+  <path>C:\Users\Richa\Desktop\cow\dataset\Sacred Cows - India - Image Sequence\IMG_0037.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>854</width>
+    <height>480</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>cow</name>
+    <pose>standing</pose>
+    <view>side</view>
+    <color>brown</color>
+    <number>2</number>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>5</xmin>
+      <ymin>58</ymin>
+      <xmax>455</xmax>
+      <ymax>477</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>cow</name>
+    <pose>standing</pose>
+    <view>side</view>
+    <color>brown,white</color>
+    <number>2</number>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>510</xmin>
+      <ymin>49</ymin>
+      <xmax>850</xmax>
+      <ymax>417</ymax>
+    </bndbox>
+  </object>
+</annotation>
