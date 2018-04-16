@@ -20,7 +20,7 @@ for eachDigit in digits['images']:
     temp = []
     for eachrow in eachDigit:
          temp.extend( eachrow )
-    #print temp
+    #print len(temp)
     #exit()
     flatten.append(temp) 
 
