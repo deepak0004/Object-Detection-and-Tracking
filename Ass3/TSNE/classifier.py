@@ -11,9 +11,9 @@ from sklearn.svm import LinearSVR
 
 flatten = []
 
-with open('mnist_label_space' + '.dump', "rb") as fp: 
+with open('Dump_Variational2/label_space_z' + '.dump', "rb") as fp: 
     flatten = pickle.load(fp)
-with open('mnist_labels' + '.dump', "rb") as fp: 
+with open('Dump_Variational2/labels' + '.dump', "rb") as fp: 
     labll = pickle.load(fp)
 
 train_x = []

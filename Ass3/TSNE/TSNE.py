@@ -24,6 +24,10 @@ for eachDigit in digits['images']:
     #exit()
     flatten.append(temp) 
 
+for i in range(1797):
+    for j in range(64):
+        flatten[i][j] = random.randint(1, 16)
+ 
 labll = digits['target']
 X_tsne = TSNE(learning_rate=100).fit_transform(flatten)
 plt.figure(figsize=(10, 5))
@@ -32,7 +36,7 @@ plt.colorbar(ticks=range(10))
 plt.clim(-0.5, 9.5)
 plt.savefig('zdim.png')
 
-with open('label_space' + '.dump', "wb") as fp: 
+with open('Dump_Variational2/label_space_z' + '.dump', "wb") as fp: 
     pickle.dump(flatten, fp)
-with open('labels' + '.dump', "wb") as fp: 
+with open('Dump_Variational2/labels' + '.dump', "wb") as fp: 
     pickle.dump(labll, fp)
