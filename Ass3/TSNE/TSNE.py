@@ -34,3 +34,5 @@ plt.savefig('zdim.png')
 
 with open('label_space' + '.dump', "wb") as fp: 
     pickle.dump(flatten, fp)
+with open('labels' + '.dump', "wb") as fp: 
+    pickle.dump(labll, fp)

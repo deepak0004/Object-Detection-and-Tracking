@@ -7,6 +7,7 @@ from sklearn import svm
 from sklearn.neural_network import MLPClassifier
 from sklearn import metrics
 from sklearn.metrics import f1_score
+from sklearn.svm import LinearSVR
 
 flatten = []
 
@@ -35,8 +36,8 @@ trainvector = np.reshape( train_x, (len(train_x), leng) )
 trainlabel = np.reshape( train_y, (len(train_y), 1) )
 
 print('Defining')
-# clf2 = LinearSVR(random_state=0)
-clf2 = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(15,), random_state=1)
+#clf2 = svm.LinearSVC()  
+clf2 = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(256,10), random_state=1)
 print('Training')
 clf2.fit(trainvector, trainlabel.ravel())
 
@@ -63,9 +64,8 @@ while( i < len(flatten) ):
     i += 1
     pp += 1  
 
-print rejected
+#print t2
+#print rejected
 
 print 'Accuracy: ', (float(correct)/noofval)
 print 'F1 score: ', f1_score(t1, t2, average='macro')
-fpr, tpr, thresholds = metrics.roc_curve(t1, t2)
-print 'AUC: ', metrics.auc(fpr, tpr)

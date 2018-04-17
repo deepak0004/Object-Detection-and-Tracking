@@ -4,19 +4,22 @@ import random
 import pickle
 
 flatten = []
-
 '''
 with open('style_space' + '.dump', "rb") as fp: 
     flatten = pickle.load(fp)
 '''
-with open('label_space' + '.dump', "rb") as fp: 
+with open('Dump_Variational1/label_space_s' + '.dump', "rb") as fp: 
     flatten = pickle.load(fp)
-with open('labels' + '.dump', "rb") as fp: 
+with open('Dump_Variational1/labels' + '.dump', "rb") as fp: 
     labll = pickle.load(fp)
 
+#flatten.flatten()
+print len(flatten)
+labll = labll.flatten()
+print labll.shape
 X_tsne = TSNE(learning_rate=100).fit_transform(flatten)
 plt.figure(figsize=(10, 5))
 plt.scatter(X_tsne[:, 0], X_tsne[:, 1], c=labll, cmap=plt.cm.get_cmap("jet", 10))
 plt.colorbar(ticks=range(10))
 plt.clim(-0.5, 9.5)
-plt.savefig('zdim.png')
+plt.savefig('s1_dim.png')
