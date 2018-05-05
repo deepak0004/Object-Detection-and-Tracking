@@ -9,7 +9,7 @@ flatten = []
 with open('style_space' + '.dump', "rb") as fp: 
     flatten = pickle.load(fp)
 '''
-with open('Dump_Variational2/label_space_z' + '.dump', "rb") as fp: 
+with open('Dump_Variational2/label_space_s' + '.dump', "rb") as fp: 
     flatten = pickle.load(fp)
 with open('Dump_Variational2/labels' + '.dump', "rb") as fp: 
     labll = pickle.load(fp)
@@ -25,4 +25,4 @@ plt.figure(figsize=(10, 5))
 plt.scatter(X_tsne[:, 0], X_tsne[:, 1], c=labll, cmap=plt.cm.get_cmap("jet", 10))
 plt.colorbar(ticks=range(10))
 plt.clim(-0.5, 9.5)
-plt.savefig('z2_dim.png')
+plt.savefig('s2_dim.png')
